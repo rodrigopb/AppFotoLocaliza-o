@@ -1,0 +1,38 @@
+/**/
+
+.cam{
+  width: 100px;
+  height: 95px;
+  margin-left: 138px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+
+.foto{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#map{
+  height: 400px;
+  text-align: center;
+  width: 350px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.divfoto{
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+
+h2{
+  margin-top: 30px;
+  text-align: center;
+  font-family: Stencil Std, fantasy;
+  font-size: 30px;
+}
