@@ -1,4 +1,31 @@
 // This is a JavaScript file
+
+//FOTO
+
+$(document).on("click","#camera",function(){
+
+  navigator.camera.getPicture(onSuccess, onFail, {
+    quality: 50,
+    destinationType: Camera.DestinationType.DATA_URL,
+    saveToPhotoAlbum:true,
+    });
+
+    function onSuccess(imageData){
+      var image = document.getElementById('imagem');
+      image.src = "data:image/jpeg;base64,"+ imageData;
+    }
+    function onFail(message){
+      alert('Failed because: '+message)
+    }
+
+});
+
+
+
+
+
+  //MAPA      
+
 $(document).on("click","#camera",function(){
 
 function mapa(position){
